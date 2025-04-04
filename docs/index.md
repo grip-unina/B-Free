@@ -33,7 +33,7 @@ links:
 
 
 <center>
- <img src="./teaser.svg" alt="teaser" width="100%" style="transform: scale(1.1);" />
+ <img src="./teaser.svg" alt="teaser" width="100%" style="transform: scale(1.15);" />
 </center>
 
 A well-designed forensic detector should detect generator specific artifacts rather than reflect data biases. 
