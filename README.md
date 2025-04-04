@@ -92,7 +92,6 @@ You can download our dataset of viral images here (*coming soon*).\
 It comprises real and fake images that went viral on internet and includes multiple web-scraped versions of
 each image, for a total of about 1400 images.
 
-
 ## License
 
 Copyright (c) 2025 Image Processing Research Group of University Federico II of Naples ('GRIP-UNINA'). 
