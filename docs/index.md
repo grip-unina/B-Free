@@ -5,42 +5,42 @@ github_url: https://grip-unina.github.io/BFree
 authors:  
   - name: Fabrizio Guillaro
     link: https://www.grip.unina.it/members/guillaro
-    index: <img src="./federicoII.png" width="20">
+    index: 1
   - name: Giada Zingarini
     link: https://www.grip.unina.it/members/zingarini
-    index: <img src="./federicoII.png" width="20">
+    index: 1
   - name: Ben Usman
     link: 
-    index: <img src="./google.png" width="20">
+    index: 2
   - name: Avneesh Sud
     link: 
-    index: <img src="./google.png" width="20">
+    index: 2
   - name: Davide Cozzolino
     link: https://www.grip.unina.it/members/cozzolino
-    index: <img src="./federicoII.png" width="20">
+    index: 1
   - name: Luisa Verdoliva
     link: https://www.grip.unina.it/members/verdoliva
-    index: <img src="./federicoII.png" width="20">
+    index: 1
 affiliations: 
   - name: University Federico II of Naples, Italy
-    index: <img src="./federicoII.png" width="20">
+    index: 1
   - name: Google DeepMind
-    index: <img src="./google.png" width="20">
+    index: 2
 ---
 
 
 [![BFree](https://img.shields.io/badge/Code%20--%20coming%20soon-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/BFree)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2412.17671)
 <a href="https://www.grip.unina.it">
-  <img src="./grip.svg" alt="GRIP" height="14" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
+  <img src="./grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
 </a>
 
 
 ## Overview
 
-<p align="center">
+<center>
  <img src="./teaser.svg" alt="teaser" width="100%" />
-</p>
+</center>
 
 A well-designed forensic detector should detect generator specific artifacts rather than reflect data biases. 
 To this end, we propose **B-Free**, a bias-free training paradigm for AI-generated image detection, where fake images are generated from real ones using 
@@ -60,7 +60,7 @@ Diffusion 2.1. More specifically:
 * For the **content augmentation**, we use an object mask to replace an object with a new one of same category, or a 
 rectangular mask to replace it with a new one of a different category.
 
-<p align="center"> <img src="./content_aug.svg" alt="content augmentation" width="80%" /> </p>
+<center> <img src="./content_aug.svg" alt="content augmentation" width="80%" /> </center>
 
 Besides the default inpainting, which regenerates the whole image, we consider also a version where the original 
 background is restored (figure above).
@@ -78,7 +78,7 @@ The official python implementation of this architecture is found [here](https://
 
 ## Augmentation strategies
 
-<p align="center"> <img src="./aug_strategies.svg" alt="augmentation strategies" width="90%" /> </p>
+<center> <img src="./aug_strategies.svg" alt="augmentation strategies" width="90%" /> </center>
 
 Our approach adopts the *inpainted++* strategy, which includes self-conditioned images, content augmentation (local 
 inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
@@ -92,7 +92,7 @@ strategy, as the dataset does not include blurring, JPEG, and the extra augmenta
 cut-out, noise addition, jittering), which are performed at training time.*
 
 |        | Real   | Generated |
-|--------|--------|-----------|
+|--------|:------:|:---------:|
 | Source | COCO   | SD 2.1    |
 | Num.   | 51,517 | 309,102   |  
 
@@ -111,7 +111,7 @@ You can download our dataset of viral images here (*coming soon*).\
 It comprises real and fake images that went viral on internet and includes multiple web-scraped versions of
 each image, for a total of about 1400 images.
 
-<p align="center"> <img src="./viral.svg" alt="viral images" width="80%" /> </p>
+<center> <img src="./viral.svg" alt="viral images" width="70%" /> </center>
 
 The figure shows the performance in terms of balanced accuracy evaluated evaluated over a 100-day period from 
 the time of initial online post (Log scale). \
