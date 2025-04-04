@@ -1,6 +1,6 @@
 # B-Free
 
-[![BFree](https://img.shields.io/badge/B--Free%20webpage-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/BFree)
+[![BFree](https://img.shields.io/badge/B--Free%20webpage-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/B-Free)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge&logo=arXiv)](https://arxiv.org/abs/2412.17671)
 <a href="https://www.grip.unina.it">
   <img src="./docs/grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
