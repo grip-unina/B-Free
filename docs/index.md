@@ -34,10 +34,9 @@ affiliations:
   <img src="./grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 3px; padding-left: 10px; padding-right: 10px;">
 </a>
 
-## Overview
 
 <center>
- <img src="./teaser.svg" alt="teaser" width="100%" />
+ <img src="./teaser.svg" alt="teaser" width="100%" style="transform: scale(1.1);" />
 </center>
 
 A well-designed forensic detector should detect generator specific artifacts rather than reflect data biases. 
