@@ -30,9 +30,7 @@ affiliations:
 
 [![BFree](https://img.shields.io/badge/Code%20--%20coming%20soon-222222.svg?style=for-the-badge&logo=github)](https://github.com/grip-unina/B-Free)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge&logo=arXiv)](https://arxiv.org/abs/2412.17671)
-<a href="https://www.grip.unina.it">
-  <img src="./grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 3px; padding-left: 10px; padding-right: 10px;">
-</a>
+
 
 
 <center>
