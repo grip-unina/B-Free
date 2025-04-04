@@ -3,10 +3,10 @@
 [![BFree](https://img.shields.io/badge/B--Free%20webpage-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/BFree)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge&logo=arXiv)](https://arxiv.org/abs/2412.17671)
 <a href="https://www.grip.unina.it">
-  <img src="./docs/grip.svg" alt="GRIP" height="14" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
+  <img src="./docs/grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
 </a>
 
-Official PyTorch implementation of the CVPR 2025 paper "A Bias-Free Training Paradigm for More General AI-generated Image Detection". -->
+Official PyTorch implementation of the CVPR 2025 paper "A Bias-Free Training Paradigm for More General AI-generated Image Detection".
 
 
 ## News
@@ -41,7 +41,7 @@ Diffusion 2.1. More specifically:
 * For the **content augmentation**, we use an object mask to replace an object with a new one of same category, or a 
 rectangular mask to replace it with a new one of a different category.
 
-<p align="center"> <img src="./docs/content_aug.svg" alt="content augmentation" width="80%" /> </p>
+<p align="center"> <img src="./docs/content_aug.svg" alt="content augmentation" width="70%" /> </p>
 
 Besides the default inpainting, which regenerates the whole image, we consider also a version where the original 
 background is restored (figure above).
