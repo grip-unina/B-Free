@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: A Bias-Free Training Paradigm for More General AI-generated Image Detection
+paper: A Bias-Free Training Paradigm for More <br> General AI-generated Image Detection
 github_url: https://grip-unina.github.io/BFree
 authors:  
   - name: Fabrizio Guillaro
