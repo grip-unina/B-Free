@@ -28,13 +28,11 @@ affiliations:
     index: 2
 ---
 
-<center>
 [![BFree](https://img.shields.io/badge/Code%20--%20coming%20soon-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/BFree)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2412.17671)
 <a href="https://www.grip.unina.it">
   <img src="./grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 3px; padding-left: 10px; padding-right: 10px;">
 </a>
-</center>
 
 ## Overview
 
