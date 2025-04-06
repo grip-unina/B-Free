@@ -59,7 +59,7 @@ The official python implementation of this architecture is found [here](https://
 
 ## Augmentation strategies
 
-<p align="center"> <img src="./docs/aug_strategies.svg" alt="augmentation strategies" width="90%" /> </p>
+<p align="center"> <img src="./docs/aug_strategies.svg" alt="augmentation strategies" width="85%" /> </p>
 
 Our approach adopts the *inpainted++* strategy, which includes self-conditioned images, content augmentation (local 
 inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
