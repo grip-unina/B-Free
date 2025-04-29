@@ -107,7 +107,7 @@ each image, for a total of about 1400 images.
 
 <center> <img src="./viral.svg" alt="viral images" width="70%" /> </center>
 
-The figure shows the performance in terms of balanced accuracy evaluated evaluated over a 100-day period from 
+The figure shows the performance in terms of balanced accuracy evaluated over a 100-day period from 
 the time of initial online post (Log scale). \
 The performance drops after only one day, after which most competitors are stuck below 70%. Only B-Free is
 able to ensure an average accuracy around 92% even after many days from the first on-line post.
