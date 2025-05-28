@@ -80,7 +80,7 @@ inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
 
 ## Training set
 
-You can download our training dataset [here](https://www.grip.unina.it/download/prog/B-Free/training_data/).
+You can download our training dataset [here](https://github.com/grip-unina/B-Free/blob/main/training_data/).
 
 ***Note:*** *training a method on this dataset only partially reflects the **inpainted+** version of our augmentation 
 strategy, as the dataset does not include blurring, JPEG, and the extra augmentations of **inpainted++** (scaling, 
