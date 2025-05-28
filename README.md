@@ -2,7 +2,7 @@
 
 [![BFree](https://img.shields.io/badge/Project%20page-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/B-Free)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge&logo=arXiv)](https://arxiv.org/abs/2412.17671)
-[![arXiv](https://img.shields.io/badge/-Data-ffab03.svg?style=for-the-badge&logo=files&logoColor=ffffff)](https://www.grip.unina.it/download/prog/B-Free/)
+[![arXiv](https://img.shields.io/badge/-Training%20Data-ffab03.svg?style=for-the-badge&logo=files&logoColor=ffffff)](https://github.com/grip-unina/B-Free/blob/main/training_data/)
 <a href="https://www.grip.unina.it">
   <img src="./docs/grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
 </a>
@@ -67,7 +67,7 @@ inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
 
 ## Training set
 
-You can download our training dataset [here](https://www.grip.unina.it/download/prog/B-Free/training_data/).
+You can download our training dataset [here](https://github.com/grip-unina/B-Free/blob/main/training_data/).
 
 ***Note:*** *training a method on this dataset only partially reflects the **inpainted+** version of our augmentation 
 strategy, as the dataset does not include blurring, JPEG, and the extra augmentations of **inpainted++** (scaling, 
@@ -83,21 +83,6 @@ licenses different than Creative Commons) and images generated with Stable Diffu
 Specifically, we first extracted the largest central crop and resize it to 512 x 512.
 Then, for the generations, we used the inpainting code from the official [Stable Diffusion 2.1 repository](https://github.com/Stability-AI/stablediffusion).
 Note that we did NOT embed the watermark during generation (`put_watermark` function).
-
-The dataset at the above link contains the following folders and files:
-- **COCO_real_512**: real images from COCO (largest central crop resized to 512x512)
-- **SD2.1_selfconditioned**: self-conditioned images
-- **SD2.1_selfconditioned_origBG**: self-conditioned images with original background restored
-- **SD2.1_inpainted_samecat**: an object is replaced with one of the same category
-- **SD2.1_inpainted_samecat_origBG**: same as *inpainted_samecat*, but with original background restored
-- **SD2.1_inpainted_diffcat**: an object is replaced with one of a different category
-- **SD2.1_inpainted_diffcat_origBG**: same as *inpainted_diffcat*, but with original background restored
-- **mask**: object masks used for the generation of *inpainted_samecat* and for the background replacement of *inpainted_samecat_origBG* and *selfconditioned_origBG*
-- **bbox**: bounding boxes used for the generation of *inpainted_diffcat* and for the background replacement of *inpainted_diffcat_origBG*
-- **train_list.csv**: contains the ids for our training split and extra info for each image, such as the object category 
-- **valid_list.csv**: contains the ids for our validation split and extra info for each image, such as the object category
-
-Note that both *train* and *valid* split come from the MS-COCO 2017 **training set**.
 
 Further details can be found in appendix A of the paper.
 
