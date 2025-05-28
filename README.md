@@ -1,7 +1,8 @@
 # B-Free
 
-[![BFree](https://img.shields.io/badge/B--Free%20webpage-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/B-Free)
+[![BFree](https://img.shields.io/badge/Project%20page-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/B-Free)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge&logo=arXiv)](https://arxiv.org/abs/2412.17671)
+[![arXiv](https://img.shields.io/badge/-Data-ffab03.svg?style=for-the-badge&logo=files&logoColor=ffffff)](https://www.grip.unina.it/download/prog/B-Free/)
 <a href="https://www.grip.unina.it">
   <img src="./docs/grip.svg" alt="GRIP" height="28" style="background-color: #3D3D3D; padding: 7px; padding-left: 20px; padding-right: 20px;">
 </a>
@@ -12,7 +13,7 @@ Official PyTorch implementation of the CVPR 2025 paper "A Bias-Free Training Par
 ## News
 *   TODO: release code
 *   TODO: release viral images dataset
-*   TODO: release training data
+*   2025-05-28: released training data
 *   2025-04-03: Updated arXiv version!
 *   2024-12-23: Paper has been uploaded on arXiv
 
@@ -66,7 +67,7 @@ inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
 
 ## Training set
 
-You can download our training dataset here (coming soon).
+You can download our training dataset [here](https://www.grip.unina.it/download/prog/B-Free/training_data/).
 
 ***Note:*** *training a method on this dataset only partially reflects the **inpainted+** version of our augmentation 
 strategy, as the dataset does not include blurring, JPEG, and the extra augmentations of **inpainted++** (scaling, 

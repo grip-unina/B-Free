@@ -29,6 +29,7 @@ affiliations:
 links:
     arxiv: https://arxiv.org/abs/2412.17671
     code: https://github.com/grip-unina/B-Free
+    data: https://www.grip.unina.it/download/prog/B-Free/
 ---
 
 
@@ -79,7 +80,7 @@ inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
 
 ## Training set
 
-You can download our training dataset here (coming soon).
+You can download our training dataset [here](https://www.grip.unina.it/download/prog/B-Free/training_data/).
 
 ***Note:*** *training a method on this dataset only partially reflects the **inpainted+** version of our augmentation 
 strategy, as the dataset does not include blurring, JPEG, and the extra augmentations of **inpainted++** (scaling, 
@@ -159,7 +160,7 @@ even in the most challenging scenario.
 ## News
 *   TODO: release code
 *   TODO: release viral images dataset
-*   TODO: release training data
+*   2025-05-28: released training data
 *   2025-04-03: Updated arXiv version!
 *   2024-12-23: Paper has been uploaded on arXiv
 
