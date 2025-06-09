@@ -34,7 +34,7 @@ To visualize the graph as in the figure below, run the notebook `time_graph.ipyn
 
 
 ## Results
-<p align="center"> <img src="./docs/viral.svg" alt="viral images" width="85%" /> </p>
+<p align="center"> <img src="../docs/viral.svg" alt="viral images" width="85%" /> </p>
 
 The figure shows the performance in terms of balanced accuracy evaluated over a 100-day period from
 the time of initial online post (Log scale). \
