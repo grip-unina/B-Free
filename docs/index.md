@@ -102,7 +102,8 @@ Further details can be found in appendix A of the paper.
 
 ## Dataset of viral images
 
-You can download our dataset of viral images here (*coming soon*).\
+You can download our dataset of viral images [here](https://github.com/grip-unina/B-Free/blob/main/viral_images_dataset/).
+
 It comprises real and fake images that went viral on internet and includes multiple web-scraped versions of
 each image, for a total of about 1400 images.
 
@@ -144,7 +145,7 @@ even in the most challenging scenario.
 
 ## News
 *   TODO: release code
-*   TODO: release viral images dataset
+*   2025-06-09: released viral images dataset
 *   2025-05-28: released training data
 *   2025-04-03: Updated arXiv version!
 *   2024-12-23: Paper has been uploaded on arXiv
