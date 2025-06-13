@@ -11,9 +11,10 @@ Official PyTorch implementation of the CVPR 2025 paper "A Bias-Free Training Par
 
 
 ## News
-*   TODO: release code
-*   2025-06-09: released viral images dataset
-*   2025-05-28: released training data
+*   TODO: batch processing support
+*   2025-06-13: code released
+*   2025-06-09: dataset of viral images released
+*   2025-05-28: training data released
 *   2025-04-03: Updated arXiv version!
 *   2024-12-23: Paper has been uploaded on arXiv
 
@@ -65,6 +66,11 @@ The official python implementation of this architecture is found [here](https://
 Our approach adopts the *inpainted++* strategy, which includes self-conditioned images, content augmentation (local 
 inpainting), blurring, JPEG compression, scaling, cut-out, noise, and jittering.
 
+
+## Code
+
+The code is available in the `code` folder.
+
 ## Training set
 
 You can download our training dataset [here](https://github.com/grip-unina/B-Free/blob/main/training_data/).
@@ -94,6 +100,7 @@ You can download our dataset of viral images [here](https://github.com/grip-unin
 It comprises real and fake images that went viral on internet and includes multiple web-scraped versions of
 each image, for a total of about 1400 images.
 
+
 ## License
 
 Copyright (c) 2025 Image Processing Research Group of University Federico II of Naples ('GRIP-UNINA'). 
@@ -110,12 +117,13 @@ terms of the license, as specified in the document LICENSE.txt
 ## Bibtex
 
  ```
-@article{Guillaro2024biasfree,
-      title={A Bias-Free Training Paradigm for More General AI-generated Image Detection}, 
-      author={Guillaro, Fabrizio and Zingarini, Giada and Usman, Ben and Sud, Avneesh and Cozzolino, Davide and Verdoliva, Luisa},
-      year={2024},
-      journal={arXiv preprint arXiv:2412.17671},
-      url={https://arxiv.org/abs/2412.17671}, 
+@InProceedings{Guillaro2024biasfree,
+    author    = {Guillaro, Fabrizio and Zingarini, Giada and Usman, Ben and Sud, Avneesh and Cozzolino, Davide and Verdoliva, Luisa},
+    title     = {A Bias-Free Training Paradigm for More General AI-generated Image Detection},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {18685-18694}
 }
 ```
 

@@ -1,0 +1,8 @@
+tqdm
+scikit-learn
+pillow
+yaml
+torchvision==0.15.2
+pytorch==2.0.1
+timm>=1.0.12
+transformers>=4.43.4

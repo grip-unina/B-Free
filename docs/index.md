@@ -144,22 +144,25 @@ B-Free is more robust by a large margin compared with other methods and can ensu
 even in the most challenging scenario.
 
 ## News
-*   TODO: release code
-*   2025-06-09: released viral images dataset
-*   2025-05-28: released training data
+*   2025-06-13: code released
+*   2025-06-09: dataset of viral images released
+*   2025-05-28: training data released
 *   2025-04-03: Updated arXiv version!
 *   2024-12-23: Paper has been uploaded on arXiv
+
+
 
 
 ## Bibtex
 
  ```
-@article{Guillaro2024biasfree,
-      title={A Bias-Free Training Paradigm for More General AI-generated Image Detection}, 
-      author={Guillaro, Fabrizio and Zingarini, Giada and Usman, Ben and Sud, Avneesh and Cozzolino, Davide and Verdoliva, Luisa},
-      year={2024},
-      journal={arXiv preprint arXiv:2412.17671},
-      url={https://arxiv.org/abs/2412.17671}, 
+@InProceedings{Guillaro2024biasfree,
+    author    = {Guillaro, Fabrizio and Zingarini, Giada and Usman, Ben and Sud, Avneesh and Cozzolino, Davide and Verdoliva, Luisa},
+    title     = {A Bias-Free Training Paradigm for More General AI-generated Image Detection},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {18685-18694}
 }
 ```
 
