@@ -1,6 +1,6 @@
 # Pre-trained weights
 
-Download the [weights](https://www.grip.unina.it/download/prog/B-Free/weights/BFREE_dino2reg4.zip) and unzip them in the `weights` folder.
+Download the [weights](https://www.grip.unina.it/download/prog/B-Free/weights) and unzip them in the `weights` folder.
 MD5 of the zipfile is f3f53fa647848b16cf81c913f148a198.
 Once unzipped, it should look like this:
 ```
