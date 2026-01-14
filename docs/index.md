@@ -115,7 +115,7 @@ The performance drops after only one day, after which most competitors are stuck
 able to ensure an average accuracy around 92% even after many days from the first on-line post.
 
 
-## Synthbuster dataset extended with nmore recent generators
+## Dataset of new generators
 
 At [this link](https://www.grip.unina.it/download/prog/B-Free/extended_synthbuster/) we provide the extended version of the [synthbuster](https://github.com/qbammey/synthbuster) dataset used in our experiments, including images generated with additional generators.
 Following the same procedure of synthbuster, fake images are generated using captions extracted from real images.

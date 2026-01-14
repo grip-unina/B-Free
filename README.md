@@ -102,7 +102,7 @@ It comprises real and fake images that went viral on internet and includes multi
 each image, for a total of about 1400 images.
 
 
-## Synthbuster dataset extended with nmore recent generators
+## Dataset of new generators
 
 At [this link](https://www.grip.unina.it/download/prog/B-Free/extended_synthbuster/) we provide the extended version of the [synthbuster](https://github.com/qbammey/synthbuster) dataset used in our experiments, including images generated with additional generators.
 Following the same procedure of synthbuster, fake images are generated using captions extracted from real images.
