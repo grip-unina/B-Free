@@ -12,6 +12,7 @@ Official PyTorch implementation of the CVPR 2025 paper "A Bias-Free Training Par
 
 ## News
 *   TODO: batch processing support
+*   2026-01-14: dataset of new generators released
 *   2025-06-13: code released
 *   2025-06-09: dataset of viral images released
 *   2025-05-28: training data released
@@ -99,6 +100,17 @@ You can download our dataset of viral images [here](https://github.com/grip-unin
 
 It comprises real and fake images that went viral on internet and includes multiple web-scraped versions of
 each image, for a total of about 1400 images.
+
+
+## Synthbuster dataset extended with nmore recent generators
+
+At [this link](https://www.grip.unina.it/download/prog/B-Free/extended_synthbuster/) we provide the extended version of the [synthbuster](https://github.com/qbammey/synthbuster) dataset used in our experiments, including images generated with additional generators.
+Following the same procedure of synthbuster, fake images are generated using captions extracted from real images.
+
+It comprises:
+- 1K images from **RAISE**, which we resized to a dimension so that the area is about 1024x1024, 
+- 1K images generated with **FLUX**, using captions from RAISE
+- 1K images generated with **Stable Diffusion 3.5**, using captions from RAISE
 
 
 ## License

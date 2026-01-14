@@ -115,6 +115,16 @@ The performance drops after only one day, after which most competitors are stuck
 able to ensure an average accuracy around 92% even after many days from the first on-line post.
 
 
+## Synthbuster dataset extended with nmore recent generators
+
+At [this link](https://www.grip.unina.it/download/prog/B-Free/extended_synthbuster/) we provide the extended version of the [synthbuster](https://github.com/qbammey/synthbuster) dataset used in our experiments, including images generated with additional generators.
+Following the same procedure of synthbuster, fake images are generated using captions extracted from real images.
+
+It comprises:
+- 1K images from **RAISE**, which we resized to a dimension so that the area is about 1024x1024, 
+- 1K images generated with **FLUX**, using captions from RAISE
+- 1K images generated with **Stable Diffusion 3.5**, using captions from RAISE
+
 
 ## Other results
 
@@ -144,6 +154,7 @@ B-Free is more robust by a large margin compared with other methods and can ensu
 even in the most challenging scenario.
 
 ## News
+*   2026-01-14: dataset of new generators released
 *   2025-06-13: code released
 *   2025-06-09: dataset of viral images released
 *   2025-05-28: training data released
